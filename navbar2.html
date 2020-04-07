@@ -1,0 +1,45 @@
+<link rel="stylesheet" type="text/css" href="csc1.css">
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="index.php" data-toggle="tooltip" title="Kambali Ke Home">
+    <img src="image/head2.jpg" alt="Logo" style="width:45px;">
+    </a>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="distribut.php">DATA BARANG MASUK</a>
+    </li>
+        <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+       DISTRIBUSI AREA
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="mudis.php">MUAT BARANG</a>
+        <a class="dropdown-item" href="mudpros.php">PROSES</a>
+        <a class="dropdown-item" href="mudlap.php">LAPORAN</a>
+        <a class="dropdown-item" href="mudsel.php">SELESAI</a>
+      </div>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+       LANJUTAN
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="wailist.php">WAITING LIST</a>
+        <a class="dropdown-item" href="setar.php">SET AREA</a>
+      </div>
+    </li>
+   </ul>
+</nav>
+
+<script>
+      $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+      });
+    </script>
+    
+</body>
+
